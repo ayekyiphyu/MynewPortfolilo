@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+ font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+  padding: 0;
+  scroll-behavior: auto;
+}
+.bg-01 {
+  background-color: #263D9D;
+}
+.line {
+  border-bottom: 2px solid #ccc;
+}
+.text-1 {
+  text-align: right;
+}
+.side-options {
+  /* position: fixed;
+  top: 30%;
+  background: red;
+  width: 100px;
+  display: flex;
+  justify-content: right;
+  right: 0;
+  z-index: 1;*/
+}
+.banner {
+  background-color: #EFEFEF;
+  background-image: url("../images/bnr.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  text-align: center;
+}
+.tit-01 {
+  font-size: 23px;
+  color: #f63567;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0 0 0;
+}
+.tit-02 {
+  color: #263d9d;
+font-size: 40px;
+font-weight: 700;
+}
+.tit-03 {
+  color: #fff;
+  text-align: center;
+}
+.txt-01 {
+  color: #7f7f7f;
+font-size: 14px;
+line-height: 24px;
+margin-top: 10px;
+}
+#clickme {
+  font-size: 16px;
+}
+
+.mydata {
+  
+  background-color: #F63567;
+}
+#section1 {
+  height: 600px;
+  background-color: pink;
+}

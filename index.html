@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<link rel="stylesheet" href="icofont/icofont.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<div class="container-fluid p-0">
+  <div class=" bg-01 p-3">
+  <div class="row justify-content-between">
+    <div class="col col-md-10 ">
+      One of two columns
+    </div>
+    <div class="col col-md-2">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"> <i class="icofont-email"></i> Send Message to me!  </button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+  <div class="col-12 ">
+    <div class="banner p-5">
+        <h3 class="tit-01 ">HTML Template</h3>
+      <h2 class="tit-02"> Corporate Business Template </h2>
+      <p class="txt-01">Purchase C-Biz and use for your Company. C-Biz Site template for Corporate, Creative <br>agency & Business company. This design
+is very creative and unique, and also very easy to customize and use.</p>
+      <button type="button" id="clickme" class="btn btn-warning btn-lg mb-3" >
+       <i class="icofont-long-arrow-down"></i>
+        Look Now </button>
+    
+    </div><!--banner-->
+  </div>
+  
+  <div id="section01" class="col-md-12 mydata p-5">
+   <h2 class="tit-03">Check out all ready Demos</h2>
+    <p class="wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">This Design is very creative and unique, and also very easy to customize and use. <br>
+					choose the best suitable demo and start customizing it.</p>
+  </div>
+  
+  
+  </div>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script>
+    
+    $("#clickme").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#section1").offset().top
+    }, 800);
+});
+  
+  </script>
+</body>
+</html>
