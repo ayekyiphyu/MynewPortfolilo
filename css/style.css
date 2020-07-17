@@ -8,6 +8,24 @@ html, body {
   padding: 0;
   scroll-behavior: auto;
 }
+/*hover pic*/
+
+figure {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/*end of hover pic*/
 .bg-01 {
   background-color: #FCF9F9;
 }
@@ -63,7 +81,7 @@ margin-top: 10px;
 
 .mydata {
   
-  background-color: #F63567;
+  /*background-color: #F63567;*/
 }
 
 .recent {
@@ -85,5 +103,6 @@ margin-top: 10px;
 .hoverpic figure:hover img {
 	opacity: .5;
 }
+
 
 /*end hover*/
