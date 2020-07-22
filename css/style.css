@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 html, body {
- font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #545454;
@@ -9,31 +9,33 @@ html, body {
   scroll-behavior: auto;
 }
 /*hover pic*/
-
 figure {
-	width: auto;
-	height: auto;
-	margin: 0;
-	padding: 0;
-	background: #fff;
-	overflow: hidden;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
 }
-figure:hover+span {
-	bottom: -36px;
-	opacity: 1;
+figure:hover + span {
+  bottom: -36px;
+  opacity: 1;
 }
-
-
-
 /*end of hover pic*/
 .bg-01 {
   background-color: #FCF9F9;
+}
+.bg-gray {
+  background-color:  #f2f3f4 ;
 }
 .line {
   border-bottom: 2px solid #ccc;
 }
 .text-1 {
   text-align: right;
+}
+.icon {
+  font-size: 20px;
 }
 .side-options {
   /* position: fixed;
@@ -47,10 +49,10 @@ figure:hover+span {
 }
 .banner {
   background-color: #EFEFEF;
-  background-image: url("../images/bnr.png");
-  background-size: auto 100%;
+  background-image: url("../images/banner.png");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: left bottom;
   text-align: center;
 }
 .tit-01 {
@@ -62,8 +64,8 @@ figure:hover+span {
 }
 .tit-02 {
   color: #263d9d;
-font-size: 40px;
-font-weight: 700;
+  font-size: 40px;
+  font-weight: 700;
 }
 .tit-03 {
   color: #fff;
@@ -71,38 +73,62 @@ font-weight: 700;
 }
 .txt-01 {
   color: #7f7f7f;
-font-size: 14px;
-line-height: 24px;
-margin-top: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
 }
 #clickme {
   font-size: 16px;
 }
-
 .mydata {
-  
   /*background-color: #F63567;*/
+  position: relative;
 }
-
+.line ::before {
+  
+}
+.line ::after {
+  
+}
 .recent {
   font-size: 13px;
   text-align: center;
 }
-
-
 /*hover*/
-
 .hoverpic figure {
-	background: #1abc9c;
+  background: #1abc9c;
 }
 .hoverpic figure img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 .hoverpic figure:hover img {
-	opacity: .5;
+  opacity: .5;
+}
+/*end hover*/
+#go-top {
+  display: none;
+  font-size: 30px;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  border: 2px solid #333;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  background: red;
 }
 
-
-/*end hover*/
+.copyright {
+  background-color: #11193d;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+.copy {
+  margin: 0 !important;
+}
